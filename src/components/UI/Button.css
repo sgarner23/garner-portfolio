@@ -6,3 +6,8 @@
   border: solid 1.5px #33323d;
   cursor: pointer;
 }
+
+.cta-btn:hover {
+  background-color: #33323d;
+  color: #fafafa;
+}

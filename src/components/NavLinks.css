@@ -18,10 +18,10 @@
   font-weight: 500;
 }
 
-.footer-l:active {
+.footer-l:hover {
   color: #5fb4a2;
 }
 
-.link:active {
+.link:hover {
   color: #5fb4a2;
 }
