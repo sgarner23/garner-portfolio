@@ -1,0 +1,32 @@
+.home-connect-container {
+  margin: 150px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.filler-div {
+  width: 634px;
+}
+
+.connect-border-line {
+  border-top: 1px solid rgba(151, 151, 151, 0.5);
+  width: 534px;
+  position: absolute;
+  top: 50%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+}
+
+.connect-text {
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  /* or 105% */
+  letter-spacing: -0.357143px;
+
+  color: #33323d;
+}

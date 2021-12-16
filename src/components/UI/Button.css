@@ -1,0 +1,8 @@
+.cta-btn {
+  height: 48px;
+  width: 202px;
+  background-color: #fafafa;
+  color: #33323d;
+  border: solid 1.5px #33323d;
+  cursor: pointer;
+}

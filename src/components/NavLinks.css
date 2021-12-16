@@ -1,0 +1,27 @@
+.header-links {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link {
+  font-size: 12px;
+  text-decoration: none;
+  color: #33323d;
+}
+
+.footer-l {
+  font-size: 12px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+}
+
+.footer-l:active {
+  color: #5fb4a2;
+}
+
+.link:active {
+  color: #5fb4a2;
+}

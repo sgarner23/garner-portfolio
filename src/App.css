@@ -1,5 +1,6 @@
 .main-container {
-  height: 100vh;
+  height: 100%;
+  background-color: #fafafa;
 }
 
 .page-container {
@@ -7,4 +8,5 @@
   margin: auto;
   padding-top: 30px;
   height: 100%;
+  background-color: #fafafa;
 }
