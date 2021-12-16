@@ -1,0 +1,53 @@
+.greeting-photo-container {
+  height: 600px;
+  width: 100%;
+
+  margin-top: 50px;
+  background-image: url("../assets/homepageHero.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.greeting-message-container {
+  position: absolute;
+  height: 350px;
+  width: 400px;
+  background-color: #fff;
+  top: 250px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.greeting-message {
+  font-weight: bold;
+  font-size: 45px;
+  color: #33323d;
+  font-family: "Ibarra Real Nova", serif;
+  padding-bottom: 60px;
+}
+
+.about-me {
+  width: 200px;
+  height: 48px;
+  background-color: #203a4c;
+  font-family: "Public Sans";
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 305px;
+  left: 0;
+}
+
+.down-arrow-about {
+  padding-left: 10px;
+}
+
+.about-me-text {
+  padding-right: 57px;
+}
