@@ -44,19 +44,17 @@
   cursor: pointer;
 }
 
-.about-me:hover {
-  background-color: #5fb4a2;
+.about-me-link {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .down-arrow-about {
   padding-left: 10px;
 }
 
-.down-arrow-about:hover {
-  filter: invert(100%) sepia(300%) saturate(0) hue-rotate(314deg)
-    brightness(115%) contrast(100%);
-}
-
 .about-me-text {
-  padding-right: 61px;
+  padding-right: 56px;
 }
