@@ -1,0 +1,32 @@
+.iou-container {
+  display: flex;
+  width: 940px;
+  height: 500px;
+  padding-top: 94px;
+}
+
+.project-image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  position: relative;
+}
+
+.mac-image {
+  width: 525px;
+  height: auto;
+  padding-right: 50px;
+}
+
+.mobile-image {
+  height: 220px;
+  width: auto;
+  position: absolute;
+  top: 175px;
+  left: 320px;
+}
+
+/* .project-description {
+  width: 50%;
+} */

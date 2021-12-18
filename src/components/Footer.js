@@ -7,18 +7,30 @@ import NavLinks from "./NavLinks";
 
 function Footer() {
   return (
-    <div className="footer-container">
+    <footer className="footer-container">
       <div className="footer-links">
         <div className="footer-links-left">
           <img src={logo} alt="logo" className="footer-logo" />
           <NavLinks classes={"footer-l"} />
         </div>
         <div className="footer-links-right">
-          <img src={github} alt="github" className="social-footer" />
-          <img src={linkedin} alt="github" className="social-footer" />
+          <a
+            href="https://github.com/sgarner23"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={github} alt="github" className="social-footer" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/stephen-garner-682357b7/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={linkedin} alt="github" className="social-footer" />
+          </a>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
 

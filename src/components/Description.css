@@ -1,0 +1,28 @@
+.description-wrapper {
+  width: 50%;
+  height: 100%;
+  padding-left: 80px;
+}
+
+.border-div {
+  border-top: 1px solid rgba(151, 151, 151, 0.5);
+  border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+  height: 100%;
+}
+
+.description-title {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Ibarra Real Nova", serif;
+  padding-top: 40px;
+  padding-bottom: 28px;
+  color: #33323d;
+}
+
+.description-text-p {
+  font-size: 16px;
+  color: #434250;
+  line-height: 30px;
+  font-family: "Public Sans", sans-serif;
+  padding-bottom: 30px;
+}

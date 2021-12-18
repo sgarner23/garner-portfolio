@@ -6,40 +6,13 @@
   background-color: #fafafa;
 }
 
-.portfolio-pic-container {
+.portfolio-pic-wrapper {
   width: 50%;
   height: 100%;
-
-  background-image: url("../assets/stephen1.jpg");
-  background-position: center;
-  background-size: cover;
 }
 
-.about-me-text-container {
-  width: 50%;
-  height: 100%;
-  padding-left: 80px;
-}
-
-.border-div {
-  border-top: 1px solid rgba(151, 151, 151, 0.5);
-  border-bottom: 1px solid rgba(151, 151, 151, 0.5);
-  height: 100%;
-}
-
-.about-me-title {
-  font-weight: bold;
-  font-size: 40px;
-  font-family: "Ibarra Real Nova", serif;
-  padding-top: 40px;
-  padding-bottom: 28px;
-  color: #33323d;
-}
-
-.about-me-text-p {
-  font-size: 16px;
-  color: #434250;
-  line-height: 30px;
-  font-family: "Public Sans", sans-serif;
-  padding-bottom: 30px;
+.portfolio-pic {
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0.95;
 }
