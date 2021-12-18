@@ -9,7 +9,9 @@ export const projects = [
   {
     projectName: "IOU Tracker",
     projectDescription:
-      "IOU Tracker is a fullstack, CRUD, small business invoicing app. This project gave me practice with managing global state, React-Hooks, Context API, reducers, user authentication with JWT, building out REST APIs, database design, protected routes, and responsive web design.",
+      "IOU Tracker is a fullstack, CRUD, small business invoicing app. This project gave me practice with managing global state, React-Hooks, Context API, reducers, user authentication with JWT, building out REST APIs, database design, MassiveJS, protected routes with React-Router, and mobile first responsive web design.",
     buttonText: "VIEW PROJECT",
+    macImage: "/img/iouMac.png",
+    mobileImage: "/img/iouMobile.png",
   },
 ];
