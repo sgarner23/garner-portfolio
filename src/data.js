@@ -14,4 +14,12 @@ export const projects = [
     macImage: "/img/iouMac.png",
     mobileImage: "/img/iouMobile.png",
   },
+  {
+    projectName: "Dev Finder",
+    projectDescription:
+      "Dev Finder is a front end React project. Practiced working with public API's by pulling profile data from GitHub's REST API. User can search any GitHub username and see their profile information displayed on the card. Worked with media queries to set up desktop, tablet, and mobile views.",
+    buttonText: "VIEW PROJECT",
+    macImage: "/img/devFinderMac.png",
+    mobileImage: "/img/devFinderMobile.png",
+  },
 ];

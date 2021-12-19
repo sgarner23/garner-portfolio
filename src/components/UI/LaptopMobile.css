@@ -6,13 +6,19 @@
 
 .mac-image-wrapper-2 {
   background-color: #ffffff;
-  border-top: 25px solid #373c53;
-  border-left: 25px solid #373c53;
-  border-right: 25px solid #373c53;
+  border-top: 35px solid #373c53;
+  border-left: 35px solid #373c53;
+  border-right: 35px solid #373c53;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.dev-finder-color {
+  border-top: 35px solid #506e9e;
+  border-left: 35px solid #506e9e;
+  border-right: 35px solid #506e9e;
 }
 
 .mac-image {
