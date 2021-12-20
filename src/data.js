@@ -22,4 +22,18 @@ export const projects = [
     macImage: "/img/devFinderMac.png",
     mobileImage: "/img/devFinderMobile.png",
   },
+  {
+    projectName: "Webscraper",
+    projectDescription:
+      "This webscraper uses NodeJS and Puppeteer to hava a bot scrape Craigslist and return an array of objects with all of the newly posted apartments of that day that match certain criteria. Gave me a lot of practice with the DOM and learning an automation library.",
+    buttonText: "VIEW PROJECT",
+    macImage: "/img/puppeteer.webp",
+  },
+  {
+    projectName: "JavaScript Calculator",
+    projectDescription:
+      "I wanted to put my JS logic skills to the test and build a calculator app. Users can perform mathmatical operations, clear the screen, and continue equations based on previous answers.",
+    buttonText: "VIEW PROJECT",
+    macImage: "/img/calculator.png",
+  },
 ];
