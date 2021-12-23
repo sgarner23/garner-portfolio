@@ -6,9 +6,9 @@
 
 .mac-image-wrapper-2 {
   background-color: #ffffff;
-  border-top: 35px solid #373c53;
-  border-left: 35px solid #373c53;
-  border-right: 35px solid #373c53;
+  border-top: 35px solid rgba(55, 60, 83, 1);
+  border-left: 35px solid rgba(55, 60, 83, 1);
+  border-right: 35px solid rgba(55, 60, 83, 1);
   height: 100%;
   display: flex;
   align-items: center;
@@ -48,7 +48,7 @@
   height: 220px;
   width: auto;
   position: absolute;
-  top: 185px;
+  top: 195px;
   left: 305px;
   border-radius: 14px;
 }

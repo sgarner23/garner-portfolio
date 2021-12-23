@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Description from "../components/Description";
 import { projects } from "../data";
-import "./Portfolio.css";
 import ProjectContainer from "../components/UI/ProjectContainer";
 import LaptopMobile from "../components/UI/LaptopMobile";
 
 function Portfolio() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       {projects.map((data, i) => {
@@ -21,6 +24,7 @@ function Portfolio() {
               description={data.projectDescription}
               buttonText={data.buttonText}
               index={i}
+              navigation={data.URL}
             />
           </ProjectContainer>
         );

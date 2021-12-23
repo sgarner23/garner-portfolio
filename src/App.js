@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
+import IOU from "./pages/IOU";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/iou" element={<IOU />} />
         <Route path="*" element={<Navigate to="/home" />} />
       </Routes>
       <Footer />

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Button from "./UI/Button";
 import "./Description.css";
 
-function Description({ title, description, buttonText, index }) {
+function Description({ title, description, buttonText, index, navigation }) {
   const [pad, setPad] = useState("");
 
   //Setting the layout pattern classes based on postion
@@ -17,7 +17,11 @@ function Description({ title, description, buttonText, index }) {
       <div className="border-div">
         <h3 className="description-title">{title}</h3>
         <p className="description-text-p">{description}</p>
-        <Button text={buttonText} className="go-to-portfolio" />
+        <Button
+          navigation={navigation}
+          text={buttonText}
+          className="go-to-portfolio"
+        />
       </div>
     </div>
   );

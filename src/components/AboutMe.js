@@ -15,6 +15,7 @@ function AboutMe() {
         title={aboutMe.title}
         description={aboutMe.description}
         buttonText={aboutMe.buttonText}
+        navigation={"portfolio"}
       />
     </section>
   );
