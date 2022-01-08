@@ -17,6 +17,10 @@ function LaptopMobile({ title, mac, mobile }) {
       case "JavaScript Calculator":
         setBorderColor("calculator");
         break;
+
+      case "Random User API":
+        setBorderColor("random-user-generator");
+        break;
     }
   }, []);
 

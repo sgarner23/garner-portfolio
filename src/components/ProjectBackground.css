@@ -1,0 +1,16 @@
+.project-background-wrapper {
+  width: 50%;
+}
+
+.pb-text {
+  font-size: 42px;
+  font-family: "Ibarra Real Nova", serif;
+  color: #33323d;
+}
+
+.pb-description {
+  padding-top: 28px;
+  font-size: 15px;
+  line-height: 30px;
+  color: #434250;
+}

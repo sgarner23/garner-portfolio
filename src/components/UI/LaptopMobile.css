@@ -15,6 +15,12 @@
   justify-content: center;
 }
 
+.random-user-generator {
+  border-top: 35px solid #97b046;
+  border-left: 35px solid #97b046;
+  border-right: 35px solid #97b046;
+}
+
 .dev-finder-color {
   border-top: 35px solid #506e9e;
   border-left: 35px solid #506e9e;
